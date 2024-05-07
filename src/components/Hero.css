@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .box {
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    margin: 30px 25px;
+}
+
+.container img {
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.container p {
+    padding: 15px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}

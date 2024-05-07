@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(227, 231, 231);
+    box-shadow: 5px 5px 12px black;
+}
+
+.navbar .container .logo {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.navbar .container .logo h4 {
+    margin-top: -8px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.navbar .container ul {
+    display: flex;
+}
+
+.navbar .container ul li {
+    list-style: none;
+    padding: 5px 20px;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
